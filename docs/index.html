@@ -57,10 +57,35 @@
         <button class="btn btn-outline-secondary" type="button" id="button-addon2">Join Game</button>
       </div>
     </div>
-    	<div id="waiting">
-		  <p id="welcome" />
-		  <div id="players" />
+	<div id="waiting">
+	  <p id="welcome" />
+	  <div id="players" />
+	 <button id="startgame" type="button" class="btn btn-outline-success">Start Game</button> 
+	</div>
+	<div class="card" style="width: 18rem;" id="summary">
+	  <div class="card-header">
+	    Featuring <div id="guesser" /> answering clues from <div id="giver" />
 	  </div>
+	  <ul class="list-group list-group-flush" id="wordsummary">
+	    <li class="list-group-item">Word 1</li>
+	    <li class="list-group-item">Word 2</li>
+	    <li class="list-group-item">Word 3</li>
+	    <li class="list-group-item">Total Points: <div id="roundpoints" /> </li>
+	  </ul>
+	  <div class="card-footer text-muted">
+	    Next round featuring <div id="nextguesser" /> answering clues from <div id="nextgiver" />
+            <div id="waitingsummarymessage" />
+	    <button id="startround" type="button" class="btn btn-outline-success">Start Round</button>
+	  </div>	
+	</div>
+	  
+	<div id="gameplay">
+	  <p id="message"></p>
+	  <div id="phrase"/>
+	  <button id="pass" type="button">Pass</button> 
+	  <button id="success" type="button">Got it!</button> 
+	  <div id="timer" />
+	</div>
   </main>
 
   <footer class="mastfoot mt-auto">
