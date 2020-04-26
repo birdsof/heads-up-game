@@ -51,12 +51,16 @@
   <main role="main" class="inner cover">
     <h1 class="cover-heading">Heads Up Multiplayer</h1>
     <p class="lead">Enter your name to join the game</p>
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Player name" aria-label="Player name" aria-describedby="button-addon2">
+    <div class="input-group mb-3" id="entername">
+      <input type="text" id="username" class="form-control" placeholder="Enter name" aria-label="Player name" aria-describedby="button-addon2">
       <div class="input-group-append">
         <button class="btn btn-outline-secondary" type="button" id="button-addon2">Join Game</button>
       </div>
     </div>
+    	<div id="waiting">
+		  <p id="welcome" />
+		  <div id="players" />
+	  </div>
   </main>
 
   <footer class="mastfoot mt-auto">
