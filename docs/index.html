@@ -52,16 +52,18 @@
     <h1 class="cover-heading">Heads Up Multiplayer</h1>
     <p class="lead">Enter your name to join the game</p>
     <div class="input-group mb-3" id="entername">
-      <input type="text" id="username" class="form-control" placeholder="Enter name" aria-label="Player name" aria-describedby="button-addon2">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Join Game</button>
-      </div>
+	<input type="text" id="username" class="form-control" placeholder="Enter name" aria-label="Player name" aria-describedby="button-addon2">
+	<div class="input-group-append">
+	<button class="btn btn-outline-secondary" type="button" id="button-addon2">Join Game</button>
+        </div>
     </div>
+	  
 	<div id="waiting">
-	  <p id="welcome" />
+	  <p id="welcome" class="lead"> Waiting to start game with <p/>
 	  <div id="players" />
 	 <button id="startgame" type="button" class="btn btn-outline-success">Start Game</button> 
 	</div>
+	  
 	<div class="card" style="width: 18rem;" id="summary">
 	  <div class="card-header">
 	    Featuring <div id="guesser" /> answering clues from <div id="giver" />
